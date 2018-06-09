@@ -40,4 +40,11 @@ public class Alquiler {
     public String toString() {
         return getPrecio() + " es el precio del alquiler del siguiente barco:\n" + barco;
     }
+    
+    /**
+     * Devuelve los dias.
+     */
+    public int getDias() {
+        return dias;
+    }
 }
